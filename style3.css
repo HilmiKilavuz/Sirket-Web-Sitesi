@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.color1 {
+    color: #140f07;
+}
+
+.color2 {
+    color: #192544;
+}
+
+.color3 {
+    color: #475da4;
+}
+
+.color4 {
+    color: #819ffc;
+}
+
+.color5 {
+    color: #caeff7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #caeff7;
+    transition: 0.5s;
+}
+
+
+.social {
+    background-color: #192544;
+    height: 55px;
+    width: 100%;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search {
+    height: 25px;
+}
+
+
+
+.icons img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icons img :hover {
+    opacity: 0.5;
+}
+
+.ka {
+    font-size: 12px;
+}
+
+.container {
+    width: 83%;
+    margin: auto;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.bannerresim {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #caeff7;
+    font-size: 100px;
+
+
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: #475da4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    overflow: auto;
+
+}
+
+section nav {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+
+section nav ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+section nav ul li {
+    list-style-type: none;
+}
+
+section nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #140f07;
+    border-bottom: 1px solid #140f07;
+    padding-left: 15px;
+    display: block;
+    transition: 0.5s;
+
+}
+
+section nav ul li a:hover {
+    color: #caeff7;
+    background-color: #819ffc;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+section nav ul li a img {
+    height: 15px;
+
+}
+
+main {
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+
+
+}
+
+.icerik {
+    width: 48%;
+    height: auto;
+
+    margin-right: 15px;
+    border: #140f07 solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .60);
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #3f2f55;
+}
+
+.rsm {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.rsm:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.icerik h5 {
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.btndevam:link {
+    display: block;
+    text-decoration: none;
+
+    height: 20px;
+    margin-top: 10px;
+    background-color: #192544;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.icerik p {
+    text-align: center;
+
+}
+
+.btndevam:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #192544;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #192544;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .60);
+    width: 100%;
+}
+
+.referanslar {
+    width: 31%;
+    height: 300px;
+    background-color: #3f2f55;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .60);
+}
+
+.refresim {
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.refresim:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.refbaslik {
+    font-size: 25px;
+    margin: 7px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.referanslar p {
+    font-size: 20px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.galerirsm {
+    width: 22%;
+    height: auto;
+    border-radius: 5px;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .60);
+    margin: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+.galerirsm:hover {
+    opacity: 1;
+    transition: 0.5s;
+    border: 2px #192544 solid;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.link:link {
+    text-decoration: none;
+
+}
